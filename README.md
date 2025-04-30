@@ -15,7 +15,7 @@ This project is for educational porpuses only, Pull rquest are welcome, but prio
 
 site published at :  https://aidas415.github.io/paukstukas/
 
-design: ![😟](original-bird.webp)
+design: ![😟](gravity-bird.webp)
 
 ## 🎯 Project features/goals
 
