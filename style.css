@@ -1,0 +1,70 @@
+/* General Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('original-bird.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.604);
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin-left: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+.navbar .actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-button.email {
+    align-items: center;
+}
+
+.action-button.login {
+    background-color: rgba(245, 87, 145, 0.925);
+    color: blue;
+    margin-right: 35px;
+}
+
